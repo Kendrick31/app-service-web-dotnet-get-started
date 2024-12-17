@@ -26,5 +26,6 @@ namespace aspnet_get_started.Controllers
 
             return View();
         }
+        throw new Exception("This is a general exception.");
     }
 }
