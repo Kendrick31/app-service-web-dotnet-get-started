@@ -6,6 +6,15 @@ using System.Web.Mvc;
 
 namespace aspnet_get_started.Controllers
 {
+    [HttpGet("{id}")]
+    public ActionResult<string> Get(int id)
+    {
+        if (id == 0)
+        {
+            throw new Exception("Invalid Id");
+        }
+        return "value";
+    }
     public class HomeController : Controller
     {
         public ActionResult Index()
@@ -26,6 +35,14 @@ namespace aspnet_get_started.Controllers
 
             return View();
         }
+        [HttpGet("{id}")]
+        public ActionResult<string> Get(int id)
+        {
+            throw new Exception("Invalid Id");
+            return "1";
+        }
         throw new Exception("This is a general exception.");
+    
+    
     }
 }
