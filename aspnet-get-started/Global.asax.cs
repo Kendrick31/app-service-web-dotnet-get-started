@@ -12,10 +12,6 @@ namespace aspnet_get_started
 {
     public class MvcApplication : System.Web.HttpApplication
     {
-        public void IActionResult Index()
-        {
-            throw new Exception("This is a test exception");
-        }
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
