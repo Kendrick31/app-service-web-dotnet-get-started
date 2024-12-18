@@ -20,6 +20,11 @@ namespace aspnet_get_started.Controllers
             return View();
         }
 
+        public void IActionResult Index()
+        {
+            throw new Exception("This is a test exception");
+        }
+
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
