@@ -10,6 +10,7 @@ namespace aspnet_get_started.Controllers
     {
         public ActionResult Index()
         {    
+            throw new Exception("An error has occurred.");
             return View();
         }
 
