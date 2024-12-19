@@ -45,15 +45,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="log4net" Version="2.0.15" />
-    <PackageReference Include="Microsoft.ApplicationInsights" Version="2.21.0" />
-    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
-    <PackageReference Include="Microsoft.ApplicationInsights.Log4NetAppender" Version="2.21.0" />
-    <PackageReference Include="Microsoft.ApplicationInsights.SnapshotCollector" Version="1.4.6" />
-    <PackageReference Include="Microsoft.ApplicationInsights.Web" Version="2.21.0" />
-    <PackageReference Include="Microsoft.ApplicationInsights.WindowsServer" Version="2.21.0" />
-    <PackageReference Include="Microsoft.Extensions.Logging.ApplicationInsights" Version="2.22.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <Reference Include="log4net" Version="2.0.15" />
+    <Reference Include="Microsoft.ApplicationInsights" Version="2.21.0" />
+    <Reference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+    <Reference Include="Microsoft.ApplicationInsights.Log4NetAppender" Version="2.21.0" />
+    <Reference Include="Microsoft.ApplicationInsights.SnapshotCollector" Version="1.4.6" />
+    <Reference Include="Microsoft.ApplicationInsights.Web" Version="2.21.0" />
+    <Reference Include="Microsoft.ApplicationInsights.WindowsServer" Version="2.21.0" />
+    <Reference Include="Microsoft.Extensions.Logging.ApplicationInsights" Version="2.22.0" />
+    <Reference Include="Newtonsoft.Json" Version="13.0.3" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
